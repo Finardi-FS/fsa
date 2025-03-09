@@ -1,4 +1,5 @@
 NUOVI ALBUM CANTANTI
+
 - [x] Fulminacci
 - [x] Margherita Vicario
 - [x] Calcutta
