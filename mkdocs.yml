@@ -85,4 +85,8 @@ extra_javascript:
   - assets/javascripts/interactive_graph.js
 
 extra_css:
+<<<<<<< HEAD
   # - assets/stylesheets/interactive_graph.css
+=======
+  # - assets/stylesheets/interactive_graph.css
+>>>>>>> fad949fca2b4117d5046660f5227e0a6117b8ce8
