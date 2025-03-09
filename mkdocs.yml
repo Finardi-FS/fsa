@@ -25,8 +25,8 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-    favicon: assets/favicon-196x196.png
-    logo: assets/favicon-196x196.png
+    favicon: assets/favicon.png
+    logo: assets/favicon.png
 
     icon:
       admonition:
