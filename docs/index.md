@@ -1,30 +1,14 @@
-# Federico Shin'ichi Archive
+### **1️⃣ Lifestyle & Hobbies**
 
-## Sport
+- **🛑 Active Life**: [[Unicycle]], [[Parkour]]
+- **🎨 Creativity & Expression**: [[Photography]], [[Music]]
+- **🎮 Digital Entertainment**: [[Videogames]], [[Films]], [[Tv Series]]
 
-- [[Unicycle]]
-- [[Parkour]]
+### **2️⃣ Academic & Learning**
 
----
+- **📚 Literature**: [[Books]], [[Audiobooks]]
+- **🔬 Science & Mathematics**: [[Physics]], [[Mathematics]]
 
-## Free time
+### **3️⃣ Utilities & Miscellaneous**
 
-- [[Music]]
-- [[Books]]
-- [[Audiobooks]]
-- [[Films]]
-- [[Tv Series]]
-- [[Photography]]
-- [[Videogames]]
-
----
-
-## Web
-
-- [[Useful Links]]
-
----
-
-## Studies
-- [[Physics]]
-- [[Mathematics]]
+- **🔗 Useful References**: [[Useful Links]]
