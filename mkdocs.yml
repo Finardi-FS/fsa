@@ -25,8 +25,8 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-    # favicon: assets/favicon-196x196.png
-    # logo: assets/favicon-196x196.png
+    favicon: assets/favicon-196x196.png
+    logo: assets/favicon-196x196.png
 
     icon:
       admonition:
@@ -82,4 +82,4 @@ extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  - assets/javascripts/interactive_graph.js
+  #- assets/javascripts/interactive_graph.js
