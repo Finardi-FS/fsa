@@ -1,6 +1,6 @@
 ### **1️⃣ Lifestyle & Hobbies**
 
-- **🛑 Active Life**: [[Unicycle]], [[Parkour]]
+- **🛑 Active Life**: [[docs/Unicycle/index|Unicycle]], [[Parkour]]
 - **🎨 Creativity & Expression**: [[Photography]], [[Music]]
 - **🎮 Digital Entertainment**: [[Videogames]], [[Films]], [[Tv Series]]
 
