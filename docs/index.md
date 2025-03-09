@@ -1,16 +1,30 @@
-# Obsidian Notes
+# Federico Shin'ichi Archive
 
-Publish your public notes with MkDocs
+## Sport
 
-## Hello World!
+- [[Unicycle]]
+- [[Parkour]]
 
-The `index.md` in the `/docs` folder is the homepage you see here.
+---
 
-The folders in `/docs` appear as the main sections on the navigation bar.
+## Free time
 
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+- [[Music]]
+- [[Books]]
+- [[Audiobooks]]
+- [[Films]]
+- [[Tv Series]]
+- [[Photography]]
+- [[Videogames]]
 
+---
 
-[[TEST]]
-[[hello-world]]
-- [ ] dsdfsdfs
+## Web
+
+- [[Useful Links]]
+
+---
+
+## Studies
+- [[Physics]]
+- [[Mathematics]]
