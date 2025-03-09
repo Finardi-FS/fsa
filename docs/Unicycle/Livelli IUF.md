@@ -5,16 +5,19 @@ tags:
   - iuf
   - sport
 ---
+# Livelli ufficiali IUF
 
 I livelli di skills ufficiali della **IUF** ([International Unicycling Federation](https://unicycling.org/)) sono stati creati nel 1998 e vengono utilizzati in tutto il mondo per guidare la progressione delle skills con il monociclo. I test vengono effettuati a ogni campionato mondiale Unicon e possono essere eseguiti anche da qualsiasi esaminatore ufficiale dei livelli IUF.
 
 Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unicycling.org/files/IUF_skill_levels.pdf). Per un elenco completo di tutte le abilità che fanno parte delle Standard Skills, puoi fare riferimento alla lista ufficiale delle [Standard Skills IUF](https://unicycling.org/files/iuf-std_skills_list-2015.pdf).
+
 
 # **LIVELLO 01**
 
 - Salire sul monociclo senza assistenza
 - Pedalare per 50 metri (36 pedalate per un monociclo da 20”)
 - Scendere elegantemente con il monociclo davanti  
+
 
 # **LIVELLO 02**
 
@@ -25,6 +28,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Pedalare giù da un rialzo di 15 cm
 - Effettuare una curva di 90 gradi a sinistra all'interno di un quadrato di lato 1 metro
 - Effettuare una curva di 90 gradi a destra all'interno di un quadrato di lato 1 metro
+
 
 # **LIVELLO 03**
 
@@ -37,6 +41,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Saltare 5 volte sul posto (non ci si può spostare per più di 1 metro dal punto di inizio e non è possibile ruotare più di 180 gradi)
 - Passare sopra o saltare un ostacolo di 10x10cm
 
+
 # **LIVELLO 04**
 
 - Effettuare 4 tipi di partenze
@@ -48,6 +53,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Pedalare con la sella fuori dietro (contro il corpo) per 10 metri
 - Effettuare una curva di 360 gradi a sinistra all'interno di un quadrato di lato 1 metro
 - Effettuare una curva di 360 gradi a destra all'interno di un quadrato di lato 1 metro
+
 
 # **LIVELLO 05**
 
@@ -63,6 +69,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Saltare eseguendo una rotazione di 90 gradi a sinistra
 - Camminare sulla ruota per 10 metri
 
+
 # **LIVELLO 06**
 
 - Effettuare 6 tipi di partenze
@@ -75,9 +82,10 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Pedalare con la sella fuori a lato (contro il corpo) in un cerchio verso destra
 - Pedalare con il solo piede destro per 10 metri
 - Pedalare con il solo piede sinistro per 10 metri
-- Backspin
-- Frontspin
-- Spin  
+- [[Livelli IUF#**Backspin/Frontspin **|Backspin]]
+- [[Livelli IUF#**Backspin/Frontspin **|Frontspin]]
+- [[Livelli IUF#**Spin **|Spin]]  
+
 
 # **LIVELLO 07**
 
@@ -93,6 +101,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Spin a sinistra
 - Spin a destra
 
+
 # **LIVELLO 08**
 
 - Effettuare 8 tipi di partenze
@@ -103,8 +112,9 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Pedalare con un solo piede all'indietro per 10 metri (piede a scelta)
 - Glide per 10 metri
 - Camminare sulla ruota con le mani per 10 metri
-- Piroetta
+- [[Livelli IUF#**Piroetta **|Piroetta]]
 - Spin all'indietro
+
 
 # **LIVELLO 09**
 
@@ -123,6 +133,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Pedalare con un solo piede con la sella fuori davanti per 10 metri
 - Piroetta all'indietro
 
+
 # **LIVELLO 10**
 
 - Effettuare 10 tipi di partenze
@@ -139,6 +150,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 
 ---
 
+
 # **Linee Guida:**
 
 - Il monociclista deve eseguire tutti gli esercizi del livello relativo con la possibilità di commettere massimo tre errori totali di cui però è concesso un solo errore per singolo esercizio;
@@ -147,22 +159,28 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Durante l’esecuzione di ogni livello non è possibile avere assistenza esterna (es. muri, persone, etc…);
 - Durante l’esecuzione di un livello è obbligatorio utilizzare lo stesso monociclo per passare tutti gli esercizi;
 - Tutti gli esercizi del livello in esame devono essere sostenuti entro un’ora dall’inizio del test;
+
+
 ## **Backspin/Frontspin:**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd4ErpPe2C0XbTO21k6vJX9SF46lmvr3HrY9mXfMtG3Cak9K6gQHR1LzolPiH-PGtIlU3QylIZIWjhZ5nebfRmN0NDx8pako2couEXceUEmfvFtcLvU17dfaa8toGGgv4e22TIPeFZIssnTr6X2chwWnDM?key=vgIVghEDrPjfgQt8UBv7cw)
+
 
 ## **Spin:**
 
 Lo spin deve essere eseguito all'interno di un cerchio di raggio 1 metro attorno a un punto fisso, senza vagare in giro. Devono essere eseguite almeno 5 rotazioni complete dei pedali. 
 Non sono ammesse piroette.
 
+
 ## **Piroetta:**
 
 La piroetta consiste nell'eseguire tre rotazioni complete di 360 gradi e devono essere eseguite con il monociclo rotante su un asse verticale. Non dovrebbe esserci alcun movimento di pedale durante la piroetta.**
 
+
 # **Video esecuzione di tutti i livelli:** 
 
 <iframe title="International Unicycling Federation Skill Levels 1-10 Demonstrated (1989)" src="https://www.youtube.com/embed/SVMDaYLku1o?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 4 / 3; width: 100%; height: 100%;"></iframe>
+
 
 > [!info] References
 > [Official IUF Skill Levels – International Unicycling Federation](https://unicycling.org/official-iuf-skill-levels/)
