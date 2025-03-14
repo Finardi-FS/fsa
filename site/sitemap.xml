@@ -2,58 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/</loc>
-         <lastmod>2025-03-09</lastmod>
+         <lastmod>2025-03-14</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Audiobooks/</loc>
-         <lastmod>2025-03-09</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Photography/</loc>
+         <lastmod>2025-03-14</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Books/</loc>
-         <lastmod>2025-03-09</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Photography/Temi%20del%20Mese/</loc>
+         <lastmod>2025-03-14</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Films/</loc>
-         <lastmod>2025-03-09</lastmod>
-    </url>
-    <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Mathematics/</loc>
-         <lastmod>2025-03-09</lastmod>
-    </url>
-    <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Music/</loc>
-         <lastmod>2025-03-09</lastmod>
-    </url>
-    <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Parkour/</loc>
-         <lastmod>2025-03-09</lastmod>
-    </url>
-    <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Photography/</loc>
-         <lastmod>2025-03-09</lastmod>
-    </url>
-    <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Physics/</loc>
-         <lastmod>2025-03-09</lastmod>
-    </url>
-    <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Tv%20Series/</loc>
-         <lastmod>2025-03-09</lastmod>
-    </url>
-    <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Useful%20Links/</loc>
-         <lastmod>2025-03-09</lastmod>
-    </url>
-    <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Topics/Videogames/</loc>
-         <lastmod>2025-03-09</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Physics/Tecnologie%20Quantistiche%20Applicate/SQUIDS/</loc>
+         <lastmod>2025-03-14</lastmod>
     </url>
     <url>
          <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/</loc>
-         <lastmod>2025-03-09</lastmod>
+         <lastmod>2025-03-14</lastmod>
     </url>
     <url>
          <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/Livelli%20IUF/</loc>
-         <lastmod>2025-03-09</lastmod>
+         <lastmod>2025-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/UniQuest/Principiante/Livello%201/</loc>
+         <lastmod>2025-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/UniQuest/Principiante/Livello%202/</loc>
+         <lastmod>2025-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/UniQuest/Principiante/Livello%203/</loc>
+         <lastmod>2025-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/UniQuest/Principiante/Livello%204/</loc>
+         <lastmod>2025-03-14</lastmod>
     </url>
 </urlset>

@@ -1,4 +1,4 @@
-site_name: Federico Shinichi Archive
+site_name: Federico Shin'ichi Archive
 site_url: https://finardi-fs.github.io/obsidian-publish-mkdocs/  # Replace with your actual site URL
 
 theme:
@@ -83,3 +83,6 @@ extra_javascript:
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
   #- assets/javascripts/interactive_graph.js
+
+extra_css:
+  - assets/css/custom.css

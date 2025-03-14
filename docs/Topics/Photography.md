@@ -1,5 +1,0 @@
----
-Topic: Photography
-tags:
-  - photography
----

@@ -20,6 +20,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 
 ---
 ## **LIVELLO 02**
+[Video livello 2](https://youtu.be/SVMDaYLku1o?t=96)
 
 - Salire con il piede sinistro
 - Salire con il piede destro
@@ -31,6 +32,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 
 ---
 ## **LIVELLO 03**
+[Video livello 3](https://youtu.be/SVMDaYLku1o?t=236)
 
 - Effettuare 3 tipi di partenze
 - Pedalare in una figura a "otto" con il diametro dei cerchi inferiore a 1,5 metri
@@ -43,6 +45,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 
 ---
 ## **LIVELLO 04**
+[Video livello 4](https://youtu.be/SVMDaYLku1o?t=321)
 
 - Effettuare 4 tipi di partenze
 - Pedalare all'indietro per 10 metri
@@ -56,6 +59,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 
 ---
 ## **LIVELLO 05**
+[Video livello 5](https://youtu.be/SVMDaYLku1o?t=555)
 
 - Effettuare 5 tipi di partenze
 - Pedalare all’indietro in un cerchio
@@ -71,6 +75,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 
 ---
 ## **LIVELLO 06**
+[Video livello 6](https://youtu.be/SVMDaYLku1o?t=679)
 
 - Effettuare 6 tipi di partenze
 - Pedalare all’indietro in una figura a "otto"
@@ -82,12 +87,13 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Pedalare con la sella fuori a lato (contro il corpo) in un cerchio verso destra
 - Pedalare con il solo piede destro per 10 metri
 - Pedalare con il solo piede sinistro per 10 metri
-- Backspin
-- Frontspin
-- Spin
+- [[Livelli IUF#**Backspin/Frontspin**|Backspin]]
+- [[Livelli IUF#**Backspin/Frontspin**|Frontspin]]
+- [[Livelli IUF#**Spin**|Spin]]
 
 ---
 ## **LIVELLO 07**
+[Video livello 7](https://youtu.be/SVMDaYLku1o?t=884)
 
 - Effettuare 7 tipi di partenze
 - Pedalare all’indietro in un cerchio con la sella fuori davanti (contro il corpo)
@@ -103,6 +109,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 
 ---
 ## **LIVELLO 08**
+[Video livello 8](https://youtu.be/SVMDaYLku1o?t=1071)
 
 - Effettuare 8 tipi di partenze
 - Pedalare con il solo piede destro in una figura a "otto"
@@ -112,11 +119,12 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Pedalare con un solo piede all'indietro per 10 metri (piede a scelta)
 - Glide per 10 metri
 - Camminare sulla ruota con le mani per 10 metri
-- Piroetta
+- [[Livelli IUF#**Piroetta**|Piroetta]]
 - Spin all'indietro
 
 ---
 ## **LIVELLO 09**
+[Video livello 9](https://youtu.be/SVMDaYLku1o?t=1280)
 
 - Effettuare 9 tipi di partenze
 - Camminare sulla ruota con un solo piede in una figura a "otto" (piede a scelta)
@@ -135,6 +143,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 
 ---
 ## **LIVELLO 10**
+[Video livello 10](https://youtu.be/SVMDaYLku1o?t=1604)
 
 - Effettuare 10 tipi di partenze
 - Pedalare all'indietro con la sella fuori dietro (contro il corpo) in una figura a "otto"
@@ -151,7 +160,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 ---
 
 
-## **Linee Guida:**
+## **Linee Guida**
 
 - Il monociclista deve eseguire tutti gli esercizi del livello relativo con la possibilità di commettere massimo tre errori totali di cui però è concesso un solo errore per singolo esercizio;
 - Ogni esercizio deve iniziare e finire con almeno tre pedalate prima di poter proseguire con gli esercizi successivi;
@@ -161,23 +170,23 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Tutti gli esercizi del livello in esame devono essere sostenuti entro un’ora dall’inizio del test;
 
 
-### **Backspin/Frontspin:**
+### **Backspin/Frontspin**
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd4ErpPe2C0XbTO21k6vJX9SF46lmvr3HrY9mXfMtG3Cak9K6gQHR1LzolPiH-PGtIlU3QylIZIWjhZ5nebfRmN0NDx8pako2couEXceUEmfvFtcLvU17dfaa8toGGgv4e22TIPeFZIssnTr6X2chwWnDM?key=vgIVghEDrPjfgQt8UBv7cw)
 
 
-### **Spin:**
+### **Spin**
 
 Lo spin deve essere eseguito all'interno di un cerchio di raggio 1 metro attorno a un punto fisso, senza vagare in giro. Devono essere eseguite almeno 5 rotazioni complete dei pedali. 
 Non sono ammesse piroette.
 
 
-### **Piroetta:**
+### **Piroetta**
 
 La piroetta consiste nell'eseguire tre rotazioni complete di 360 gradi e devono essere eseguite con il monociclo rotante su un asse verticale. Non dovrebbe esserci alcun movimento di pedale durante la piroetta.**
 
 ---
-## **Video esecuzione di tutti i livelli:** 
+## **Video esecuzione di tutti i livelli** 
 
 <iframe title="International Unicycling Federation Skill Levels 1-10 Demonstrated (1989)" src="https://www.youtube.com/embed/SVMDaYLku1o?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 4 / 3; width: 100%; height: 100%;"></iframe>
 
@@ -186,4 +195,3 @@ La piroetta consiste nell'eseguire tre rotazioni complete di 360 gradi e devono 
 
 > !!! INFO "References"
  >  	[Official IUF Skill Levels – International Unicycling Federation](https://unicycling.org/official-iuf-skill-levels/)
-
