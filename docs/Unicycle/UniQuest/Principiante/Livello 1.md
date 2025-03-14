@@ -1,9 +1,9 @@
 # **Livello 1**
 
-- **[[Principiante - Livello 1#**1.1 Salita assistita**|Salita assistita]]** - ([video: minuto 1:55](https://www.youtube.com/watch?v=rWUoIv1ftXc&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=1&t=115s)) 
-- **[[Principiante - Livello 1#**1.2 Pedalata assistita**|Pedalata assistita]]** - ([video: minuto 3:26](https://www.youtube.com/watch?v=rWUoIv1ftXc&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=1&t=206s)) 
-- **[[Principiante - Livello 1#**1.3 Pendolo assistito (3 o più mezze rotazioni per lato)**|Pendolo assistito (3 o più mezze rotazioni per lato)]]** - ([video: minuto 5:06](https://www.youtube.com/watch?v=rWUoIv1ftXc&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=1&t=306s))
-- **[[Principiante - Livello 1#**1.4 Pedalata senza assistenza (una o più pedalate)**|Pedalata senza assistenza (una o più pedalate)]]** - ([video: minuto 6:11](https://www.youtube.com/watch?v=rWUoIv1ftXc&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=1&t=371s))
+- **[[Livello 1#**1.1 Salita assistita**|Salita assistita]]** - ([video: minuto 1:55](https://www.youtube.com/watch?v=rWUoIv1ftXc&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=1&t=115s)) 
+- **[[Livello 1#**1.2 Pedalata assistita**|Pedalata assistita]]** - ([video: minuto 3:26](https://www.youtube.com/watch?v=rWUoIv1ftXc&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=1&t=206s)) 
+- **[[Livello 1#**1.3 Pendolo assistito (3 o più mezze rotazioni per lato)**|Pendolo assistito (3 o più mezze rotazioni per lato)]]** - ([video: minuto 5:06](https://www.youtube.com/watch?v=rWUoIv1ftXc&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=1&t=306s))
+- **[[Livello 1#**1.4 Pedalata senza assistenza (una o più pedalate)**|Pedalata senza assistenza (una o più pedalate)]]** - ([video: minuto 6:11](https://www.youtube.com/watch?v=rWUoIv1ftXc&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=1&t=371s))
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rWUoIv1ftXc?si=EF29LKUimmg-NjGZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
