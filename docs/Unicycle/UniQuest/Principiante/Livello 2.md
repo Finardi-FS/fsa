@@ -1,8 +1,8 @@
 # **Livello 2**
 
-- **[[Livello 2#**2.1 Pedalata senza assistenza (4 o più pedalate)**|Pedalata senza assistenza (4 o più pedalate)]]** - ([video: minuto 0:28](https://www.youtube.com/watch?v=ss8iPrDfTs0&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=2&t=28s))
+- **[[Livello 2#**2.1 Pedalata senza assistenza (4 o piu pedalate)**|Pedalata senza assistenza (4 o più pedalate)]]** - ([video: minuto 0:28](https://www.youtube.com/watch?v=ss8iPrDfTs0&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=2&t=28s))
 - **[[Livello 2#**2.2 Bunny hop assistito (saltelli)**|Bunny hop assistito (saltelli)]]** - ([video: minuto 2:38](https://www.youtube.com/watch?v=ss8iPrDfTs0&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=2&t=158s)) 
-- **[[Livello 2#**2.3 Idle senza assistenza (pendolo una o più oscillazioni)**|Idle senza assistenza (pendolo: una o più oscillazioni)]]** - ([video: minuto 3:35](https://www.youtube.com/watch?v=ss8iPrDfTs0&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=2&t=215s))
+- **[[Livello 2#**2.3 Idle senza assistenza (pendolo una o piu oscillazioni)**|Idle senza assistenza (pendolo: una o più oscillazioni)]]** - ([video: minuto 3:35](https://www.youtube.com/watch?v=ss8iPrDfTs0&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=2&t=215s))
 - **[[Livello 2#**2.4 Free Mount (partenza senza assistenza)**|Free mount (partenza senza assistenza)]]** - ([video: minuto 4:34](https://www.youtube.com/watch?v=ss8iPrDfTs0&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=2&t=274s))
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ss8iPrDfTs0?si=tEHNTOXE5G3AM352" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
