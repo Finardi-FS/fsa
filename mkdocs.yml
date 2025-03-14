@@ -1,17 +1,20 @@
 site_name: Federico Shin'ichi Archive
-site_url: https://finardi-fs.github.io/obsidian-publish-mkdocs/  # Replace with your actual site URL
-
+site_url: https://finardi-fs.github.io/obsidian-publish-mkdocs
+repo_url: https://github.com/Finardi-FS/obsidian-publish-mkdocs
+repo_name: Finardi-FS/obsidian-publish-mkdocs
+edit_uri: edit/main/docs/
 theme:
     name: 'material'
     features:
       - navigation.tabs
+      - navigation.expand
     palette:
 
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: lime
+      accent: lime
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -29,6 +32,7 @@ theme:
     logo: assets/favicon.png
 
     icon:
+      repo: simple/github
       admonition:
         note: octicons/tag-16
         abstract: octicons/checklist-16
@@ -42,6 +46,15 @@ theme:
         bug: octicons/bug-16
         example: octicons/beaker-16
         quote: octicons/quote-16
+
+extra:
+  alternate:
+    - name: Italiano
+      link: /it/
+      lang: it
+    - name: English
+      link: /en/
+      lang: en
 
 # Extensions
 markdown_extensions:
@@ -72,7 +85,6 @@ markdown_extensions:
 
 plugins:
   - search
-  #- obsidian-interactive-graph
   - roamlinks
 
 extra_javascript:
@@ -82,7 +94,7 @@ extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  #- assets/javascripts/interactive_graph.js
 
 extra_css:
   - assets/css/custom.css
+  - assets/css/extra.css
