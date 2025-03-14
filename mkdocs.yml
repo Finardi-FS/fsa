@@ -47,15 +47,6 @@ theme:
         example: octicons/beaker-16
         quote: octicons/quote-16
 
-extra:
-  alternate:
-    - name: Italiano
-      link: /it/
-      lang: it
-    - name: English
-      link: /en/
-      lang: en
-
 # Extensions
 markdown_extensions:
   - admonition
