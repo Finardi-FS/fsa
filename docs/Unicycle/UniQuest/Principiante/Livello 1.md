@@ -24,7 +24,7 @@ Posizionati a fianco ad un muro sfruttandolo come appoggio ad una mano e inseris
     
     - Posiziona il piede sul pedale e, sfruttando l’assistenza del muro, solleva lentamente l’altro piede da terra, fino a portarlo sul pedale libero.
     - Tuttavia, in questa posizione sarà leggermente più difficile partire. Per riuscire a metterti in una posizione più comoda per iniziare la pedalata, cerca di portare con il secondo piede il pedale indietro, in modo da ritrovarti con i pedali paralleli al suolo. 
-    - L'esercizio utile alla buona riuscita di questa salita è il [[Livello 1#**1.3 Pendolo assistito (3+ mezze rotazioni per lato)**|pendolo]].
+    - L'esercizio utile alla buona riuscita di questa salita è il [[Livello 1#**1.3 Pendolo assistito (3 o più mezze rotazioni per lato)**|pendolo]].
 
 Ripeti l’esercizio a ritroso (sempre lentamente) per scendere.
 
