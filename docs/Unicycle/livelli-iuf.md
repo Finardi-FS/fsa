@@ -90,9 +90,9 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Pedalare con la sella fuori a lato (contro il corpo) in un cerchio verso destra
 - Pedalare con il solo piede destro per 10 metri
 - Pedalare con il solo piede sinistro per 10 metri
-- [[Livelli IUF#**Backspin/Frontspin**|Backspin]]
-- [[Livelli IUF#**Backspin/Frontspin**|Frontspin]]
-- [[Livelli IUF#**Spin**|Spin]]
+- [[livelli-iuf#**Backspin/Frontspin**|Backspin]]
+- [[livelli-iuf#**Backspin/Frontspin**|Frontspin]]
+- [[livelli-iuf#**Spin**|Spin]]
 
 ---
 ## **LIVELLO 07**
@@ -122,7 +122,7 @@ Per tutti i dettagli sui livelli IUF, [consulta la versione in PDF](https://unic
 - Pedalare con un solo piede all'indietro per 10 metri (piede a scelta)
 - Glide per 10 metri
 - Camminare sulla ruota con le mani per 10 metri
-- [[Livelli IUF#**Piroetta**|Piroetta]]
+- [[livelli-iuf#**Piroetta**|Piroetta]]
 - Spin all'indietro
 
 ---

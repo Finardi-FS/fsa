@@ -43,7 +43,7 @@ Language: IT
 ---
 ## **2.3 Idle senza assistenza (pendolo: una o più oscillazioni)**
 
-- Seguire gli stessi passaggi visti nel [[Livello 1|Livello 1]] riguardanti il [[Livello 1#**1.3 Pendolo assistito (3 o più mezze rotazioni per lato)**|pendolo assistito]].
+- Seguire gli stessi passaggi visti nel [[Livello 1|Livello 1]] riguardanti il [[Livello 1#**1.3 Pendolo assistito (3 o piu mezze rotazioni per lato)**|pendolo assistito]].
 - Provare ad eseguire uno solo pendolo senza assistenza: mezza pedalata avanti e mezza pedalata indietro.
 - Provare a pedalare ed eseguire successivamente un solo pendolo per poi riprendere a pedalare.
 

@@ -1,3 +1,3 @@
-# Physics
+# Physics index
 
-- [[docs/Physics/Tecnologie Quantistiche Applicate/index|Tecnologie Quantistiche Applicate]]
+- [[Physics/tecnologie-quantistiche-applicate/index|Tecnologie Quantistiche Applicate]]

@@ -1,3 +1,0 @@
-# Tecnologie Quantistiche Applicate
-
-- [[SQUIDS]]
