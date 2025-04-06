@@ -4,7 +4,7 @@
 - **🎨 Creativity & Expression**: [[Photography/index|Photography]], ~~Music~~
 - **🎮 Digital Entertainment**: ~~Videogames, Films, Tv Series~~
 
- ### **2️⃣ Academic & Learning**
+### **2️⃣ Academic & Learning**
 
 - **📚 Literature**: ~~Books, Audiobooks~~
 - **🔬 Science & Mathematics**: [[Physics/index|Physics]], ~~Mathematics~~
