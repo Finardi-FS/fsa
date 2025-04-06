@@ -1,0 +1,1845 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://finardi-fs.github.io/obsidian-publish-mkdocs/Physics/tecnologie-quantistiche-applicate/Phase%20Qubit/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../SQUIDS/">
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>Phase Qubit - Federico Shin'ichi Archive</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M1%207.775V2.75C1%201.784%201.784%201%202.75%201h5.025c.464%200%20.91.184%201.238.513l6.25%206.25a1.75%201.75%200%200%201%200%202.474l-5.026%205.026a1.75%201.75%200%200%201-2.474%200l-6.25-6.25A1.75%201.75%200%200%201%201%207.775m1.5%200c0%20.066.026.13.073.177l6.25%206.25a.25.25%200%200%200%20.354%200l5.025-5.025a.25.25%200%200%200%200-.354l-6.25-6.25a.25.25%200%200%200-.177-.073H2.75a.25.25%200%200%200-.25.25ZM6%205a1%201%200%201%201%200%202%201%201%200%200%201%200-2%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M2.5%201.75v11.5c0%20.138.112.25.25.25h3.17a.75.75%200%200%201%200%201.5H2.75A1.75%201.75%200%200%201%201%2013.25V1.75C1%20.784%201.784%200%202.75%200h8.5C12.216%200%2013%20.784%2013%201.75v7.736a.75.75%200%200%201-1.5%200V1.75a.25.25%200%200%200-.25-.25h-8.5a.25.25%200%200%200-.25.25m13.274%209.537zl-4.557%204.45a.75.75%200%200%201-1.055-.008l-1.943-1.95a.75.75%200%200%201%201.062-1.058l1.419%201.425%204.026-3.932a.75.75%200%201%201%201.048%201.074M4.75%204h4.5a.75.75%200%200%201%200%201.5h-4.5a.75.75%200%200%201%200-1.5M4%207.75A.75.75%200%200%201%204.75%207h2a.75.75%200%200%201%200%201.5h-2A.75.75%200%200%201%204%207.75%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M0%208a8%208%200%201%201%2016%200A8%208%200%200%201%200%208m8-6.5a6.5%206.5%200%201%200%200%2013%206.5%206.5%200%200%200%200-13M6.5%207.75A.75.75%200%200%201%207.25%207h1a.75.75%200%200%201%20.75.75v2.75h.25a.75.75%200%200%201%200%201.5h-2a.75.75%200%200%201%200-1.5h.25v-2h-.25a.75.75%200%200%201-.75-.75M8%206a1%201%200%201%201%200-2%201%201%200%200%201%200%202%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M3.499.75a.75.75%200%200%201%201.5%200v.996C5.9%202.903%206.793%203.65%207.662%204.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873%2010.794-.045%2012.622.26%2014.408.558%2016%201.94%2016%204.25c0%201.278-.954%202.575-2.44%202.734l.146.508.065.22c.203.701.412%201.455.476%202.226.142%201.707-.4%203.03-1.487%203.898C11.714%2014.671%2010.27%2015%208.75%2015h-6a.75.75%200%200%201%200-1.5h1.376a4.5%204.5%200%200%201-.563-1.191%203.84%203.84%200%200%201-.05-2.063%204.65%204.65%200%200%201-2.025-.293.75.75%200%200%201%20.525-1.406c1.357.507%202.376-.006%202.698-.318l.009-.01a.747.747%200%200%201%201.06%200%20.75.75%200%200%201-.012%201.074c-.912.92-.992%201.835-.768%202.586.221.74.745%201.337%201.196%201.621H8.75c1.343%200%202.398-.296%203.074-.836.635-.507%201.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.4%202.4%200%200%201-.507-.441%203.1%203.1%200%200%201-.633-1.248.75.75%200%200%201%201.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738%200%201.25-.615%201.25-1.25%200-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706%201.345-.46.92-.27%201.774.019%203.062l.042.19.01.05c.348.443.666.949.94%201.553a.75.75%200%201%201-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768L6.7%205.527c-.814-.68-1.75-1.462-2.692-2.619a3.7%203.7%200%200%200-1.023.88c-.406.495-.663%201.036-.722%201.508.116.122.306.21.591.239.388.038.797-.06%201.032-.19a.75.75%200%200%201%20.728%201.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75%205.677V5.5c0-.984.48-1.94%201.077-2.664.46-.559%201.05-1.055%201.673-1.353z%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M13.78%204.22a.75.75%200%200%201%200%201.06l-7.25%207.25a.75.75%200%200%201-1.06%200L2.22%209.28a.75.75%200%200%201%20.018-1.042.75.75%200%200%201%201.042-.018L6%2010.94l6.72-6.72a.75.75%200%200%201%201.06%200%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M0%208a8%208%200%201%201%2016%200A8%208%200%200%201%200%208m8-6.5a6.5%206.5%200%201%200%200%2013%206.5%206.5%200%200%200%200-13M6.92%206.085h.001a.749.749%200%201%201-1.342-.67c.169-.339.436-.701.849-.977C6.845%204.16%207.369%204%208%204a2.76%202.76%200%200%201%201.637.525c.503.377.863.965.863%201.725%200%20.448-.115.83-.329%201.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6%206%200%200%200-.26.16%201%201%200%200%200-.276.245.75.75%200%200%201-1.248-.832c.184-.264.42-.489.692-.661q.154-.1.313-.195l.007-.004c.1-.061.182-.11.258-.161a1%201%200%200%200%20.277-.245C8.96%206.514%209%206.427%209%206.25a.61.61%200%200%200-.262-.525A1.27%201.27%200%200%200%208%205.5c-.369%200-.595.09-.74.187a1%201%200%200%200-.34.398M9%2011a1%201%200%201%201-2%200%201%201%200%200%201%202%200%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M6.457%201.047c.659-1.234%202.427-1.234%203.086%200l6.082%2011.378A1.75%201.75%200%200%201%2014.082%2015H1.918a1.75%201.75%200%200%201-1.543-2.575Zm1.763.707a.25.25%200%200%200-.44%200L1.698%2013.132a.25.25%200%200%200%20.22.368h12.164a.25.25%200%200%200%20.22-.368Zm.53%203.996v2.5a.75.75%200%200%201-1.5%200v-2.5a.75.75%200%200%201%201.5%200M9%2011a1%201%200%201%201-2%200%201%201%200%200%201%202%200%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M2.344%202.343za8%208%200%200%201%2011.314%2011.314A8.002%208.002%200%200%201%20.234%2010.089a8%208%200%200%201%202.11-7.746m1.06%2010.253a6.5%206.5%200%201%200%209.108-9.275%206.5%206.5%200%200%200-9.108%209.275M6.03%204.97%208%206.94l1.97-1.97a.749.749%200%200%201%201.275.326.75.75%200%200%201-.215.734L9.06%208l1.97%201.97a.749.749%200%200%201-.326%201.275.75.75%200%200%201-.734-.215L8%209.06l-1.97%201.97a.749.749%200%200%201-1.275-.326.75.75%200%200%201%20.215-.734L6.94%208%204.97%206.03a.75.75%200%200%201%20.018-1.042.75.75%200%200%201%201.042-.018%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M9.504.43a1.516%201.516%200%200%201%202.437%201.713L10.415%205.5h2.123c1.57%200%202.346%201.909%201.22%203.004l-7.34%207.142a1.25%201.25%200%200%201-.871.354h-.302a1.25%201.25%200%200%201-1.157-1.723L5.633%2010.5H3.462c-1.57%200-2.346-1.909-1.22-3.004zm1.047%201.074L3.286%208.571A.25.25%200%200%200%203.462%209H6.75a.75.75%200%200%201%20.694%201.034l-1.713%204.188%206.982-6.793A.25.25%200%200%200%2012.538%207H9.25a.75.75%200%200%201-.683-1.06l2.008-4.418.003-.006-.004-.009-.006-.006-.008-.001q-.005%200-.009.004%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M4.72.22a.75.75%200%200%201%201.06%200l1%20.999a3.5%203.5%200%200%201%202.441%200l.999-1a.748.748%200%200%201%201.265.332.75.75%200%200%201-.205.729l-.775.776c.616.63.995%201.493.995%202.444v.327q0%20.15-.025.292c.408.14.764.392%201.029.722l1.968-.787a.75.75%200%200%201%20.556%201.392L13%207.258V9h2.25a.75.75%200%200%201%200%201.5H13v.5q-.002.615-.141%201.186l2.17.868a.75.75%200%200%201-.557%201.392l-2.184-.873A5%205%200%200%201%208%2016a5%205%200%200%201-4.288-2.427l-2.183.873a.75.75%200%200%201-.558-1.392l2.17-.868A5%205%200%200%201%203%2011v-.5H.75a.75.75%200%200%201%200-1.5H3V7.258L.971%206.446a.75.75%200%200%201%20.558-1.392l1.967.787c.265-.33.62-.583%201.03-.722a1.7%201.7%200%200%201-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72%201.28a.75.75%200%200%201%200-1.06m.53%206.28a.75.75%200%200%200-.75.75V11a3.5%203.5%200%201%200%207%200V7.25a.75.75%200%200%200-.75-.75ZM6.173%205h3.654A.17.17%200%200%200%2010%204.827V4.5a2%202%200%201%200-4%200v.327c0%20.096.077.173.173.173%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M5%205.782V2.5h-.25a.75.75%200%200%201%200-1.5h6.5a.75.75%200%200%201%200%201.5H11v3.282l3.666%205.76C15.619%2013.04%2014.543%2015%2012.767%2015H3.233c-1.776%200-2.852-1.96-1.899-3.458Zm-2.4%206.565a.75.75%200%200%200%20.633%201.153h9.534a.75.75%200%200%200%20.633-1.153L12.225%2010.5h-8.45ZM9.5%202.5h-3V6c0%20.143-.04.283-.117.403L4.73%209h6.54L9.617%206.403A.75.75%200%200%201%209.5%206Z%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M1.75%202.5h10.5a.75.75%200%200%201%200%201.5H1.75a.75.75%200%200%201%200-1.5m4%205h8.5a.75.75%200%200%201%200%201.5h-8.5a.75.75%200%200%201%200-1.5m0%205h8.5a.75.75%200%200%201%200%201.5h-8.5a.75.75%200%200%201%200-1.5M2.5%207.75v6a.75.75%200%200%201-1.5%200v-6a.75.75%200%200%201%201.5%200%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#phase-qubit" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Federico Shin&#39;ichi Archive" class="md-header__button md-logo" aria-label="Federico Shin'ichi Archive" data-md-component="logo">
+      
+  <img src="../../../assets/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Federico Shin'ichi Archive
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Phase Qubit
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Photography/" class="md-tabs__link">
+          
+  
+  
+  Photography
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+  Physics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Unicycle/" class="md-tabs__link">
+          
+  
+  
+  Unicycle
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Federico Shin&#39;ichi Archive" class="md-nav__button md-logo" aria-label="Federico Shin'ichi Archive" data-md-component="logo">
+      
+  <img src="../../../assets/favicon.png" alt="logo">
+
+    </a>
+    Federico Shin'ichi Archive
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Photography
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Photography
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Photography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Photography index
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Photography/Temi%20del%20Mese/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Temi del Mese
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Physics
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Physics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Physics index
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tecnologie quantistiche applicate
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Tecnologie quantistiche applicate
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TQA index
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Phase Qubit
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Phase Qubit
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#energia-cinetica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energia Cinetica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energia-potenziale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energia Potenziale
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scrittura-della-lagrangiana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scrittura della Lagrangiana
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aggiunta-di-un-generatore-di-corrente-di-bias-i_b" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aggiunta di un generatore di corrente di bias \(I_B\)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aggiunta di un generatore di corrente di bias \(I_B\)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#potenza-della-corrente-mathcalp_i" class="md-nav__link">
+    <span class="md-ellipsis">
+      Potenza della corrente \(\mathcal{P}_I\)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#energia-potenziale-associata-al-generatore" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energia potenziale associata al generatore
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#termine-di-interazione-mathcall_i" class="md-nav__link">
+    <span class="md-ellipsis">
+      Termine di interazione \(\mathcal{L}_I\)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lagrangiana-totale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lagrangiana totale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riscrittura-in-funzione-di-delta-ed-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      Riscrittura in funzione di \(\delta\) ed \(N\)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hamiltoniana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hamiltoniana
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#approssimazione-del-potenziale-armonico-a-potenziale-cubico-anarmonico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Approssimazione del potenziale armonico a potenziale cubico (anarmonico)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frequenza-di-plasma-per-i_brightarrow-i_0" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frequenza di plasma per \(I_B\rightarrow I_0\):
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seconda-quantizzazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seconda quantizzazione
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#termine-di-interazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      Termine di interazione
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SQUIDS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SQUIDS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Unicycle
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Unicycle
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unicycle index
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/livelli-iuf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Livelli ufficiali IUF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    IUF (unicycling.org)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            IUF (unicycling.org)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/IUF-%28unicycling.org%29/skill-levels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proposed Skill Levels
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3_2" id="__nav_4_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Proposed Skill Levels
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Proposed Skill Levels
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/IUF-%28unicycling.org%29/Proposed-Skill-Levels/base-levels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Base Levels
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/IUF-%28unicycling.org%29/Proposed-Skill-Levels/extreme-levels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Extreme Levels
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/IUF-%28unicycling.org%29/Proposed-Skill-Levels/freestyle-levels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Freestyle Levels
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/IUF-%28unicycling.org%29/Proposed-Skill-Levels/structure-of-the-skill-levels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Structure of the Skill Levels
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    UniQuest
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            UniQuest
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_1" id="__nav_4_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Beginner Unicycling
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Beginner Unicycling
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/UniQuest/Beginner%20Unicycling/Livello%201/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Livello 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/UniQuest/Beginner%20Unicycling/Livello%202/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Livello 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/UniQuest/Beginner%20Unicycling/Livello%203/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Livello 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Unicycle/UniQuest/Beginner%20Unicycling/Livello%204/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Livello 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#energia-cinetica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energia Cinetica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energia-potenziale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energia Potenziale
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scrittura-della-lagrangiana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scrittura della Lagrangiana
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aggiunta-di-un-generatore-di-corrente-di-bias-i_b" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aggiunta di un generatore di corrente di bias \(I_B\)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aggiunta di un generatore di corrente di bias \(I_B\)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#potenza-della-corrente-mathcalp_i" class="md-nav__link">
+    <span class="md-ellipsis">
+      Potenza della corrente \(\mathcal{P}_I\)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#energia-potenziale-associata-al-generatore" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energia potenziale associata al generatore
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#termine-di-interazione-mathcall_i" class="md-nav__link">
+    <span class="md-ellipsis">
+      Termine di interazione \(\mathcal{L}_I\)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lagrangiana-totale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lagrangiana totale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riscrittura-in-funzione-di-delta-ed-n" class="md-nav__link">
+    <span class="md-ellipsis">
+      Riscrittura in funzione di \(\delta\) ed \(N\)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hamiltoniana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hamiltoniana
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#approssimazione-del-potenziale-armonico-a-potenziale-cubico-anarmonico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Approssimazione del potenziale armonico a potenziale cubico (anarmonico)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frequenza-di-plasma-per-i_brightarrow-i_0" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frequenza di plasma per \(I_B\rightarrow I_0\):
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seconda-quantizzazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seconda quantizzazione
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#termine-di-interazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      Termine di interazione
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="phase-qubit">Phase Qubit<a class="headerlink" href="#phase-qubit" title="Permanent link">&para;</a></h1>
+<p>Quando <span class="arithmatex">\(E_J \gg E_C\)</span>, il potenziale periodico domina e <span class="arithmatex">\(\delta\)</span> assume valori ben definiti nei minimi, mentre <span class="arithmatex">\(N\)</span> diventa continuo.
+- <strong>Fase localizzata</strong>
+- <strong>Incertezza sulla carica</strong></p>
+<p>In tali condizioni la fase della giunzione Josephson è considerata una <strong>buona quantità per rappresentare il sistema</strong>.</p>
+<h2 id="energia-cinetica">Energia Cinetica<a class="headerlink" href="#energia-cinetica" title="Permanent link">&para;</a></h2>
+<p>Sappiamo che la carica accumulata su un condensatore è data da <span class="arithmatex">\(Q = C V\)</span>, e il potenziale ai capi della giunzione è <span class="arithmatex">\(V = \dot{\Phi}\)</span>, dove <span class="arithmatex">\(\Phi\)</span> è il flusso magnetico.</p>
+<p>L'energia immagazzinata in un condensatore è:</p>
+<div class="arithmatex">\[U_C = \frac{1}{2} C V^2 = \frac{1}{2} C \dot{\Phi}^2\]</div>
+<p>Poiché nella formulazione lagrangiana l'energia cinetica è positiva, questo termine compare come:</p>
+<div class="arithmatex">\[T = \frac{1}{2} C \dot{\Phi}^2\]</div>
+<hr />
+<h2 id="energia-potenziale">Energia Potenziale<a class="headerlink" href="#energia-potenziale" title="Permanent link">&para;</a></h2>
+<p>La giunzione Josephson introduce un termine di energia potenziale legato alla corrente che attraversa la giunzione, data dalla relazione di Josephson:</p>
+<p><span class="arithmatex">\(I_J = I_c \sin(\delta)\)</span></p>
+<p>dove <span class="arithmatex">\(I_c\)</span> è la corrente critica e <span class="arithmatex">\(\delta\)</span> è la differenza di fase della funzione d'onda superconduttiva tra i due lati della giunzione.</p>
+<p>L'energia associata a questa corrente è ottenuta integrando rispetto al flusso:</p>
+<div class="arithmatex">\[U_J = \int V I_J dt = \int \dot{\Phi} I_c \sin(\delta) dt\]</div>
+<p>Poiché il flusso e la fase sono legati dalla relazione:</p>
+<div class="arithmatex">\[\delta = \frac{2e}{\hbar} \Phi\]</div>
+<p>possiamo esprimere l'energia potenziale in termini di <span class="arithmatex">\(\Phi\)</span>:</p>
+<div class="arithmatex">\[U_J = -E_J \cos\left(\frac{2e}{\hbar} \Phi\right)\]</div>
+<p>dove <span class="arithmatex">\(E_J = \frac{\hbar I_c}{2e}\)</span> è l'energia di Josephson.</p>
+<hr />
+<h2 id="scrittura-della-lagrangiana">Scrittura della Lagrangiana<a class="headerlink" href="#scrittura-della-lagrangiana" title="Permanent link">&para;</a></h2>
+<p>Ora che abbiamo identificato l'energia cinetica e l'energia potenziale, possiamo scrivere la lagrangiana come:</p>
+<div class="arithmatex">\[\mathcal{L}_0 = T - U = \frac{1}{2} C \dot{\Phi}^2 + E_J \cos\left(\frac{2e}{\hbar} \Phi\right)\]</div>
+<p>Questo descrive il comportamento di una giunzione Josephson senza alcuna corrente di bias applicata.</p>
+<h2 id="aggiunta-di-un-generatore-di-corrente-di-bias-i_b">Aggiunta di un generatore di corrente di bias <span class="arithmatex">\(I_B\)</span><a class="headerlink" href="#aggiunta-di-un-generatore-di-corrente-di-bias-i_b" title="Permanent link">&para;</a></h2>
+<p>![[Pasted image 20241119180323.png|200]]</p>
+<p><strong>A cosa serve?</strong> 
+Per poter osservare il tunneling di fase attraverso la configurazione di <strong>Tilted washboard potential</strong>
+![[Washboard-potential-with-zero-bias-upper-and-non-zero-bias-lower.jpg|300]]</p>
+<p>![[Pasted image 20241119180410.png|300]]</p>
+<p>Quando si introduce un generatore di corrente <span class="arithmatex">\(I_B(t)\)</span> in serie con la giunzione, bisogna considerare che la corrente che attraversa la giunzione è la somma della corrente dovuta all'effetto Josephson e della corrente esterna <span class="arithmatex">\(I_B(t)\)</span>. La corrente totale in una giunzione Josephson è quindi data da:</p>
+<div class="arithmatex">\[
+I(t) = I_{J}(t) + I_B(t)=I_c \sin(\delta) + I_B(t)
+\]</div>
+<h3 id="potenza-della-corrente-mathcalp_i"><strong>Potenza della corrente <span class="arithmatex">\(\mathcal{P}_I\)</span></strong><a class="headerlink" href="#potenza-della-corrente-mathcalp_i" title="Permanent link">&para;</a></h3>
+<p>La potenza fornita dal generatore di corrente è:</p>
+<div class="arithmatex">\[
+\mathcal{P}_I = V I_B
+\]</div>
+<p>Il potenziale <span class="arithmatex">\(V\)</span> è legato al flusso magnetico <span class="arithmatex">\(\Phi\)</span> tramite:</p>
+<div class="arithmatex">\[
+V = \dot{\Phi}.
+\]</div>
+<h3 id="energia-potenziale-associata-al-generatore"><strong>Energia potenziale associata al generatore</strong><a class="headerlink" href="#energia-potenziale-associata-al-generatore" title="Permanent link">&para;</a></h3>
+<p>L'energia potenziale associata alla corrente <span class="arithmatex">\(I_B\)</span> può essere ricavata attraverso il lavoro applicato dal generatore:</p>
+<div class="arithmatex">\[
+W_I=-\Delta U_{\text{gen}}=U_i-U_f=-U_f\equiv-U_I=\int\mathcal{P}_Idt=\int I_B \, d\Phi = I_B \Phi,
+\]</div>
+<h3 id="termine-di-interazione-mathcall_i"><strong>Termine di interazione <span class="arithmatex">\(\mathcal{L}_I\)</span></strong><a class="headerlink" href="#termine-di-interazione-mathcall_i" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[
+\mathcal{L}_I =K_I - U_I = -U_I=I_B \Phi.
+\]</div>
+<h3 id="lagrangiana-totale"><strong>Lagrangiana totale</strong><a class="headerlink" href="#lagrangiana-totale" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[
+\mathcal{L} = \mathcal{L}_0 + \mathcal{L}_I,
+\]</div>
+<p>ovvero:</p>
+<div class="arithmatex">\[
+\mathcal{L} = \frac{1}{2} C \dot{\Phi}^2 + E_J \cos\left(\frac{2e}{\hbar} \Phi\right) + I_B \Phi.
+\]</div>
+<h3 id="riscrittura-in-funzione-di-delta-ed-n"><strong>Riscrittura in funzione di <span class="arithmatex">\(\delta\)</span> ed <span class="arithmatex">\(N\)</span></strong><a class="headerlink" href="#riscrittura-in-funzione-di-delta-ed-n" title="Permanent link">&para;</a></h3>
+<p>Descrivere il sistema in termini di fase <span class="arithmatex">\(\delta\)</span> e numero di coppie di Cooper <span class="arithmatex">\(N\)</span> è più naturale rispetto a flusso e carica perché queste variabili formano una coppia canonica ben definita, con una relazione di commutazione semplice. Inoltre, nel regime <span class="arithmatex">\(E_C \ll E_J\)</span>, la fase <span class="arithmatex">\(\delta\)</span> è un buon parametro dinamico per descrivere il comportamento della giunzione, mentre <span class="arithmatex">\(N\)</span> rappresenta direttamente il numero di coppie trasferite.</p>
+<div class="arithmatex">\[\delta=2\pi\frac{\Phi}{\Phi_0}=\frac{2e}{\hbar}\Phi\]</div>
+<div class="arithmatex">\[N=\frac{Q}{2e}=\frac{C}{2e}\dot{\Phi}=\frac{\hbar C}{(2e)^2}\dot{\delta}\]</div>
+<div class="arithmatex">\[\begin{align}
+    \mathcal{L}(\delta,N)&amp;=4\frac{e^2}{2C}N^2+E_J\cos(\delta)+\frac{\hbar I_B}{2e}\delta=\\\\
+    &amp;=4E_CN^2+E_J\cos(\delta)+\frac{\hbar I_B}{2e}\delta
+\end{align}\]</div>
+<p><strong>NB:</strong>
+$$
+\begin{align}
+&amp;\begin{cases} 
+    \Phi &amp; \text{Coordinata} \ 
+    Q=\frac{\partial\mathcal{L}}{\partial\dot{\Phi}} &amp; \text{Momento coniugato} \
+    [\Phi,Q]=i\hbar &amp;\text{Relazione di commutazione}
+\end{cases}\\
+&amp;\text{quindi:} \\
+&amp;\begin{cases} 
+    \delta &amp; \text{Coordinata} \ 
+    N=\frac{1}{\hbar}\frac{\partial\mathcal{L}}{\partial\dot{\delta}} &amp; \text{Momento coniugato} \
+     [\delta,N]=i &amp;\text{Relazione di commutazione}
+\end{cases}
+\end{align}
+$$</p>
+<h3 id="hamiltoniana"><strong>Hamiltoniana</strong><a class="headerlink" href="#hamiltoniana" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[\begin{align}
+    \mathcal{H}&amp;=Q\dot{\Phi}-\mathcal{L}=\hbar N\dot\delta-\mathcal{L}=2 \cdot(4E_CN^2)-\mathcal{L}=K_J+U_J+U_I=\\\\
+    &amp;=4E_CN^2-E_J\cos(\delta)-\frac{\hbar I_B}{2e}\cdot\delta
+\end{align}\]</div>
+<h2 id="approssimazione-del-potenziale-armonico-a-potenziale-cubico-anarmonico">Approssimazione del potenziale armonico a <strong>potenziale cubico (anarmonico)</strong><a class="headerlink" href="#approssimazione-del-potenziale-armonico-a-potenziale-cubico-anarmonico" title="Permanent link">&para;</a></h2>
+<div class="arithmatex">\[U(\delta)=-E_J\cos(\delta)-\frac{\hbar I_B}{2e}\cdot\delta=-E_J\cdot\left[\cos(\delta)+\frac{I_B}{I_0}\cdot\delta\right]\]</div>
+<p>Intorno al minimo:</p>
+<div class="arithmatex">\[U(\delta)=U(\delta_{\text{min}})+U'(\delta)\lvert_{\delta_{\text{min}}}\cdot\,(\delta-\delta_{\text{min}})+\frac{1}{2}\cdot U''(\delta)\lvert_{\delta_{\text{min}}}\cdot\,(\delta-\delta_{\text{min}})^2+\cdots\]</div>
+<div class="arithmatex">\[U'(\delta)=-\sin(\delta)+\frac{I_B}{I_0}\]</div>
+<p>Sui punti critici la derivata prima del potenziale è nulla:</p>
+<div class="arithmatex">\[\sin(\delta_c)=\frac{I_B}{I_0}\]</div>
+<p>la quale ammette due soluzioni distinte, ossia <span class="arithmatex">\(\delta_c\)</span> e <span class="arithmatex">\(\pi-\delta_c\)</span>:</p>
+<div class="arithmatex">\[\begin{cases} 
+    \delta_{\text{min}}&amp;=\arcsin\left(\frac{I_B}{I_0}\right)\\
+    \delta_{\text{max}}&amp;=\pi-\arcsin\left(\frac{I_B}{I_0}\right)
+\end{cases}\]</div>
+<p><strong>NB:</strong> Sperimentalmente si sceglie <span class="arithmatex">\(I_B\sim 0.95\cdot I_0\)</span>, in modo da avere il rapporto tra le due quantità di circa <span class="arithmatex">\(1\)</span>. Tale scelta permette una maggior stabilità del sistema trovandosi vicino allo stato stazionario e permette inoltre di approssimare il potenziale in una forma più semplice:</p>
+<p>Considerando <span class="arithmatex">\(\frac{I_B}{I_0}\rightarrow 1\)</span>, riscriviamo il rapporto come <span class="arithmatex">\(\frac{I_B}{I_0}=1-\varepsilon\)</span> in cui <span class="arithmatex">\(\varepsilon\rightarrow 0\)</span>.
+In questo modo possiamo approssimare l'arcoseno ad una forma più semplice:</p>
+<div class="arithmatex">\[\arcsin(1-\varepsilon)\sim\frac{\pi}{2}-\sqrt{2\varepsilon}\]</div>
+<p><strong>Dimostrazione:</strong>
+Poniamo <span class="arithmatex">\(\varepsilon=t^2\)</span>:</p>
+<div class="arithmatex">\[g(t)=\arcsin(1-t^2)\]</div>
+<div class="arithmatex">\[g'(t)=-\frac{2}{\sqrt{2-t^2}}\]</div>
+<p>Sapendo che <span class="arithmatex">\(t\rightarrow0\)</span>:</p>
+<div class="arithmatex">\[\begin{align}
+    g(t)&amp;=g(0)+g'(t)\lvert_0\cdot t+\cdots\\\\
+    &amp;\sim\frac{\pi}{2}-\sqrt{2}\cdot t=\frac{\pi}{2}-\sqrt{2\varepsilon}
+    \end{align}\]</div>
+<p>Possiamo dunque riscrivere le fasi:</p>
+<div class="arithmatex">\[\begin{cases} 
+    \delta_{\text{min}}&amp;\sim\dfrac{\pi}{2}-\sqrt{2\varepsilon}\\\\
+    \delta_{\text{max}}&amp;\sim\dfrac{\pi}{2}+\sqrt{2\varepsilon}
+\end{cases}\]</div>
+<p>A questo punto la differenza di potenziale può essere facilmente approssimata nel seguente modo:</p>
+<div class="arithmatex">\[\begin{align}
+    \Delta U(I_B)=&amp;\,U(\delta_{\text{max}})-U(\delta_{\text{min}})=\\
+    \lvert&amp;\\
+    \sim&amp;-E_J\left[\cos\left(\frac{\pi}{2}+\sqrt{2\varepsilon}\right)+(1-\varepsilon)\cdot\left(\frac{\pi}{2}+\sqrt{2\varepsilon}\right)+\right.\\\\
+    &amp;\left.-\cos\left(\frac{\pi}{2}-\sqrt{2\varepsilon}\right)-(1-\varepsilon)\cdot\left(\frac{\pi}{2}-\sqrt{2\varepsilon}\right)\right]=\\
+    \lvert&amp;\\
+\sim\,&amp;E_J\left[2\sin(\sqrt{2\varepsilon})-2(1-\varepsilon)\sqrt{2\varepsilon}\right]=\\
+    \end{align}\]</div>
+<p>Sviluppando il seno fino al secondo ordine si ottiene:</p>
+<div class="arithmatex">\[\begin{align}
+&amp;2E_J\left[\sqrt{2\varepsilon}-\frac{1}{6}(2\varepsilon)^{3/2}-\sqrt{2\varepsilon}+\sqrt{2}\cdot\varepsilon^{3/2}\right]=\\\\
+=&amp;\,2\sqrt{2}\cdot E_J\cdot\varepsilon^{3/2}\cdot\left(1-\frac{1}{3}\right)=\\\\
+\Delta U(I_B)\sim&amp;\,\frac{2^{5/2}}{3}\cdot E_J\cdot\left(1-\frac{I_B}{I_0}\right)^{3/2}=2\sqrt{2}\cdot \frac{I_0\cdot\Phi_0}{3\pi}\cdot\left(1-\frac{I_B}{I_0}\right)^{3/2}
+\end{align}\]</div>
+<p><strong>NB:</strong> La differenza di potenziale appena ricavata rappresenta l'altezza della barriera e dipende dalla corrente di bias (fornita dal generatore di corrente). <strong>Più <span class="arithmatex">\(I_B\)</span> tende a <span class="arithmatex">\(I_0\)</span> e più la barriera si abbassa</strong>.</p>
+<h2 id="frequenza-di-plasma-per-i_brightarrow-i_0">Frequenza di plasma per <span class="arithmatex">\(I_B\rightarrow I_0\)</span>:<a class="headerlink" href="#frequenza-di-plasma-per-i_brightarrow-i_0" title="Permanent link">&para;</a></h2>
+<div class="arithmatex">\[L(\delta)=\frac{\Phi_0}{2\pi I_0\cos(\delta)}=\frac{L_0}{\cos(\delta)}$$
+    $$\omega_p(\delta)=\frac{1}{\sqrt{LC}}=\frac{1}{L_0C}\cdot\sqrt{\cos(\delta)}=\omega_0\cdot\left[1-\sin^2(\delta)\right]^{1/4}$$
+    Sapendo che per $\delta\rightarrow\delta_{\text{min}}$, il seno tende a $I_B/I_0$, possiamo fare delle approssimazioni:
+    $$\omega_p(I_B)\sim\omega_0\cdot\left[1-\left(\frac{I_B}{I_0}\right)^2\right]^{1/4}\]</div>
+<p>Sapendo inoltre che <span class="arithmatex">\(I_B\sim0.95\cdot I_0\)</span>, allora <span class="arithmatex">\(\frac{I_B}{I_0}=(1-\varepsilon)\rightarrow 1\)</span>, con <span class="arithmatex">\(\varepsilon\rightarrow 0\)</span>:</p>
+<pre><code>$$\begin{align}
+\omega_p(I_B)&amp;\sim\omega_0\cdot\left[1-(1-2\varepsilon)\right]^{1/4}=\omega_0\cdot(2\varepsilon)^{1/4}\\\\
+\omega_p(I_B)&amp;\sim2^{1/4}\cdot\omega_0\cdot\left(1-\frac{I_B}{I_0}\right)^{1/4}
+\end{align}$$
+</code></pre>
+<p><strong>NB:</strong> 
+    - <span class="arithmatex">\(\omega_p&lt;\omega_0\)</span>;
+    - Inoltre, siccome <span class="arithmatex">\(L\)</span> e <span class="arithmatex">\(C\)</span> sono rispettivamente inversamente e direttamente proporzionali all'area della giunzione, le frequenze <span class="arithmatex">\(\omega_0\)</span> e <span class="arithmatex">\(\omega_p\)</span> <strong>non</strong> dipendono dalla sua geometria.</p>
+<h2 id="seconda-quantizzazione">Seconda quantizzazione<a class="headerlink" href="#seconda-quantizzazione" title="Permanent link">&para;</a></h2>
+<p>Operatori di innalzamento e abbassamento (creazione e distruzione):</p>
+<div class="arithmatex">\[\hat{a}^\dagger=\frac{\left(\Phi-izQ\right)}{\sqrt{2\hbar z}};\hspace{2cm}\hat{a}=\frac{\left(\Phi+izQ\right)}{\sqrt{2\hbar z}}\]</div>
+<p>con <span class="arithmatex">\(z=\sqrt{L/C}\)</span> </p>
+<div class="arithmatex">\[\Phi=\sqrt{\frac{\hbar z}{2}}\cdot\left(\hat{a}^\dagger+\hat{a}\right);\hspace{2cm}Q=i\sqrt{\frac{\hbar}{2z}}\cdot\left(\hat{a}^\dagger-\hat{a}\right)\]</div>
+<p>Passando allo spazio di <span class="arithmatex">\(\{\delta, N\}\)</span>, otteniamo:</p>
+<div class="arithmatex">\[\delta=e\cdot\sqrt{\frac{2z}{\hbar}}\cdot\left(\hat{a}^\dagger+\hat{a}\right);\hspace{2cm}N=\frac{i}{2e}\cdot\sqrt{\frac{\hbar}{2z}}\cdot\left(\hat{a}^\dagger-\hat{a}\right)\]</div>
+<p>Per semplificare la scrittura, d'ora in avanti ometteremo il simbolo del cappuccio sugli operatori e scriveremo <span class="arithmatex">\(\sqrt{\hbar/2z}=\Lambda\)</span>.</p>
+<p><strong>Hamiltoniana del sistema:</strong></p>
+<div class="arithmatex">\[\mathcal{H}(\delta,N)=4E_CN^2-E_J\cos(\delta)-\frac{\hbar I_B}{2e}\cdot\delta\]</div>
+<p>Prendiamo un sottospazio del sistema in cui consideriamo solo i primi due livelli energetici:</p>
+<div class="arithmatex">\[\mathcal{B}=\{\ket{0},\ket{1}\}\]</div>
+<p>Tenendo presente che i primi due livelli energetici sono vicini al minimo della buca di potenziale, possiamo sviluppare in serie di Taylor il coseno dell'Hamiltoniana:</p>
+<div class="arithmatex">\[\cos(\delta)\sim1-\frac{\delta^2}{2}+\cdots\]</div>
+<div class="arithmatex">\[\mathcal{H}(\delta,N)\sim4E_CN^2-E_J+\frac{1}{2}E_J\delta^2-\frac{\hbar I_B}{2e}\cdot\delta\]</div>
+<p>Trascuriamo il termine costante <span class="arithmatex">\(-E_J\)</span>, in quanto contribuisce solamente allo shift dei livelli energetici e non influisce sulla differenza tra di essi per quanto riguarda le transizioni energetiche.</p>
+<div class="arithmatex">\[\mathcal{H}(\delta,N)\sim4E_CN^2+\frac{1}{2}E_J\delta^2-\frac{\hbar I_B}{2e}\cdot\delta\]</div>
+<p>Esplicitiamo ora gli operatori di innalzamento e abbassamento a partire dalle variabili canoniche <span class="arithmatex">\(\delta\)</span> ed <span class="arithmatex">\(N\)</span>:</p>
+<div class="arithmatex">\[\begin{align}
+\mathcal{H}_C&amp;=4E_C\cdot\left(-\frac{\Lambda^2}{4e^2}\right)\cdot\left(a^{\dagger2}-a^2\right)^2=\\
+&amp;=\frac{E_C\Lambda^2}{e^2}\cdot\left(2a^\dagger a+1-a^{\dagger2}-a^2\right)
+\end{align}\]</div>
+<div class="arithmatex">\[\begin{align}
+\mathcal{H}_J&amp;=\frac{1}{2}E_J\cdot\left(\frac{e}{\Lambda}\right)^2\cdot\left(a^{\dagger2}+a^2\right)^2=\\
+&amp;=\frac{E_Je^2}{2\Lambda^2}\cdot\left(2a^\dagger a+1+a^{\dagger2}+a^2\right)
+\end{align}\]</div>
+<div class="arithmatex">\[\begin{align}
+\mathcal{H}_{I_B}&amp;=-\frac{\hbar I_B}{2\Lambda}\cdot\left(a^\dagger+a\right)
+\end{align}\]</div>
+<p>Ricordando le seguenti relazioni:</p>
+<div class="arithmatex">\[\omega_0=\frac{1}{\sqrt{L_0C}}=\frac{\sqrt{8E_CE_J}}{\hbar};\]</div>
+<div class="arithmatex">\[E_C=\frac{e^2}{2C};\]</div>
+<div class="arithmatex">\[E_J=E_L=\frac{1}{L_0}\left(\frac{\hbar}{2e}\right)^2=\frac{\hbar I_0}{2e}\]</div>
+<p>Possiamo riscrivere le costanti dei primi termini dell'Hamiltoniana come:</p>
+<div class="arithmatex">\[\begin{align}
+\frac{E_C\Lambda^2}{e^2}&amp;=\frac{\hbar\omega_0}{4}\\
+\frac{E_Je^2}{2\Lambda^2}&amp;=\frac{\hbar\omega_0}{4}\\
+\frac{\hbar I_B}{2\Lambda}&amp;=I_B\cdot\sqrt{\frac{\hbar\omega_0L_0}{2}}=I_B\cdot\sqrt{\frac{\hbar}{2\omega_0C}}
+\end{align}\]</div>
+<p>Ottenendo infine sia il termine armonico che quello <strong>anarmonico</strong>:</p>
+<div class="arithmatex">\[\mathcal{H}\sim\hbar\omega_0\cdot\left(a^\dagger a+\frac{1}{2}\right)-I_B\cdot\sqrt{\frac{\hbar}{2\omega_0C}}\cdot\left(a^\dagger+a\right)\]</div>
+<hr />
+<p>Quando limitiamo il nostro interesse ai primi due livelli, <span class="arithmatex">\(\ket{0}\)</span> e <span class="arithmatex">\(\ket{1}\)</span>, si crea una <strong>proiezione</strong> da uno spazio di Hilbert di dimensione infinita a uno spazio a due dimensioni, in cui gli unici stati ammissibili sono i due stati fondamentali <span class="arithmatex">\(\ket{0}\)</span> e <span class="arithmatex">\(\ket{1}\)</span>.</p>
+<p>Gli operatori di innalzamento e abbassamento <span class="arithmatex">\(a^\dagger\)</span> e <span class="arithmatex">\(a\)</span> possono essere espressi tramite le matrici di Pauli e i loro operatori associati.</p>
+<p>In un sistema di tipo qubit (due livelli), gli operatori <span class="arithmatex">\(a^\dagger\)</span> e <span class="arithmatex">\(a\)</span> sono associati a combinazioni lineari di <span class="arithmatex">\(\sigma_x\)</span> e <span class="arithmatex">\(\sigma_y\)</span>. In particolare, possiamo scrivere le seguenti relazioni per <span class="arithmatex">\(a\)</span> e <span class="arithmatex">\(a^\dagger\)</span>:</p>
+<div class="arithmatex">\[a^\dagger = \frac{1}{2}(\sigma_x + i \sigma_y), \hspace{2cm}a = \frac{1}{2}(\sigma_x - i \sigma_y)\]</div>
+<p>Le matrici <span class="arithmatex">\(\sigma_x\)</span> e <span class="arithmatex">\(\sigma_y\)</span> sono le matrici di Pauli che agiscono come operatori di innalzamento e abbassamento nei sistemi a due livelli:</p>
+<p><span class="arithmatex">\(\sigma_x = \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix}\)</span>;  <span class="arithmatex">\(\sigma_y = \begin{pmatrix} 0 &amp; -i \\ i &amp; 0 \end{pmatrix}\)</span>;  <span class="arithmatex">\(\sigma_z = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix}\)</span>;</p>
+<p><span class="arithmatex">\(a^\dagger = \begin{pmatrix} 0 &amp; 0 \\ 1 &amp; 0 \end{pmatrix}\)</span>;  <span class="arithmatex">\(a^\dagger = \begin{pmatrix} 0 &amp; 1 \\ 0 &amp; 0 \end{pmatrix}\)</span>;  <span class="arithmatex">\(a^\dagger a = \begin{pmatrix} 0 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}\)</span>; </p>
+<p>Per semplificare l'hamiltoniana, traslo l'energia di una quantità <span class="arithmatex">\(\hbar \omega_0\)</span>, in modo da centrare il sistema attorno al livello di energia zero. Questo spostamento permette di scrivere l'hamiltoniana in una forma più semplice, che coinvolge direttamente le matrici di Pauli, facilitando così l'analisi del sistema:</p>
+<div class="arithmatex">\[\mathcal{H}\rightarrow\mathcal{H}-\hbar\omega_0\]</div>
+<p>In questo modo la nuova Hamiltoniana si potrà scrivere nel seguente modo:</p>
+<div class="arithmatex">\[\mathcal{H}\sim\hbar\omega_0\cdot\left(a^\dagger a-\frac{1}{2}\mathbb{I}\right)-I_B\cdot\sqrt{\frac{\hbar}{2\omega_0C}}\cdot\left(a^\dagger+a\right)\]</div>
+<p>A questo punto possiamo osservare che:</p>
+<div class="arithmatex">\[a^\dagger a-\frac{1}{2}\mathbb{I}=-\frac{\sigma_z}{2}\]</div>
+<div class="arithmatex">\[a^\dagger+a=\sigma_x\]</div>
+<p>ottenendo quindi:</p>
+<div class="arithmatex">\[\mathcal{H}\sim-\frac{\hbar\omega_0}{2}\cdot\sigma_z-I_B\cdot\sqrt{\frac{\hbar}{2\omega_0C}}\cdot\sigma_x\]</div>
+<p>Per poter esplicitare le energie, è necessario diagonalizzare l'hamiltoniana:</p>
+<div class="arithmatex">\[\mathcal{H}=a\cdot\sigma_z+b\cdot\sigma_x=\begin{pmatrix} a &amp; b \\ b &amp; -a \end{pmatrix}\]</div>
+<p>dove</p>
+<div class="arithmatex">\[a=-\frac{\hbar\omega_0}{2};\]</div>
+<div class="arithmatex">\[b=-I_B\cdot\sqrt{\frac{\hbar}{2\omega_0C}}\]</div>
+<div class="arithmatex">\[\det(\mathcal{H}−\lambda\mathbb{I})=0\]</div>
+<div class="arithmatex">\[\begin{align}
+    -(a-\lambda)(a+\lambda)-b^2=0\\
+    -b^2-a^2+\lambda^2=0\\
+    \lambda_{1,0}=\pm\sqrt{a^2+b^2}=E_{1,0}
+\end{align}\]</div>
+<div class="arithmatex">\[\mathcal{H}_{\text{diag}}=\begin{pmatrix} \lambda_0 &amp; 0 \\ 0 &amp; \lambda_1 \end{pmatrix}=-\sqrt{a^2+b^2}\cdot\sigma_z\]</div>
+<p>Definiamo ora la transizione energetica tra i due stati:</p>
+<div class="arithmatex">\[\hbar\omega_{01}=E_1-E_0=2\sqrt{a^2+b^2}\]</div>
+<p>L'hamiltoniana può essere riscritta nel seguente modo:</p>
+<div class="arithmatex">\[\mathcal{H}_0\equiv\mathcal{H}_{\text{diag}}=-\frac{\hbar\omega_{01}}{2}\sigma_z\]</div>
+<p><strong>NB:</strong>
+Questa Hamiltoniana:
+-  Descrive le <strong>oscillazioni quantistiche</strong> tra i due livelli <span class="arithmatex">\(\ket{0}\)</span> e <span class="arithmatex">\(\ket{1}\)</span> di un qubit superconduttore.
+- Descrive la possibilità di <strong>manipolare il qubit</strong> controllando la corrente <span class="arithmatex">\(I_B\)</span>​, che modifica la frequenza di oscillazione <span class="arithmatex">\(\omega_{01}\)</span>.
+- Descrive la <strong>riduzione a un sistema a due livelli</strong> valida in regime <strong>fortemente anarmonico</strong>, ossia vicino alla corrente critica <span class="arithmatex">\(I_0\)</span>.
+Inoltre descrive un sistema <strong>isolato</strong> a due livelli, in cui:
+1. Non ci sono <strong>interazioni</strong> con campi esterni o altri sistemi.
+2. Non ci sono termini di <strong>eccitazione</strong> o <strong>diseccitazione</strong> (nessun <span class="arithmatex">\(\sigma_x\)</span>​ o <span class="arithmatex">\(\sigma_y\)</span>​).
+3. Le energie dei livelli <span class="arithmatex">\(\ket{0}\)</span> e <span class="arithmatex">\(\ket{1}\)</span> sono semplicemente definite dalla frequenza <span class="arithmatex">\(\omega_{10}\)</span>.
+Si tratta quindi di un <strong>sistema statico</strong> che evolve solo in base alla sua energia interna.</p>
+<h2 id="termine-di-interazione">Termine di interazione<a class="headerlink" href="#termine-di-interazione" title="Permanent link">&para;</a></h2>
+<p>Aggiungendo (in serie) una corrente variabile nel tempo, possiamo controllare il qubit a piacimento. Tale aggiunta determinerà un termine di interazione <span class="arithmatex">\(\mathcal{H}_{\text{int}}\)</span>, il quale provoca l'inizio della rotazione dello stato nella sfera di Bloch.</p>
+<div class="arithmatex">\[\mathcal{H}(t)=\mathcal{H}_0+\mathcal{H}_{\text{int}}(t)\]</div>
+<p>La corrente possiamo riscriverla nel seguente modo:</p>
+<div class="arithmatex">\[I_B=I_{B_0}+\Delta I(t)\]</div>
+<p>dove <span class="arithmatex">\(I_{B_0}\)</span> rappresenta il termine di corrente costante contenuto nell'Hamiltoniana senza interazioni e <span class="arithmatex">\(\Delta I(t)\)</span> rappresenta il termine variabile e dipendente dal tempo contenuto nell'Hamiltoniana di interazione.</p>
+<p><strong>NB:</strong>
+I livelli energetici dei rispettivi stati <span class="arithmatex">\(\ket{0}\)</span> e <span class="arithmatex">\(\ket{1}\)</span>, sono determinati dal termine di corrente costante <span class="arithmatex">\(I_{B_0}\)</span>.  </p>
+<div class="arithmatex">\[\begin{align}
+\mathcal{H}(t)&amp;\sim-\frac{\hbar\omega_0}{2}\cdot\sigma_z-I_B(t)\cdot\sqrt{\frac{\hbar}{2\omega_0C}}\cdot\sigma_x=\\
+&amp;\sim-\frac{\hbar\omega_0}{2}\cdot\sigma_z-I_{B}(t)\cdot\Phi=\\
+&amp;\sim\left(-\frac{\hbar\omega_0}{2}\cdot\sigma_z-I_{B_0}\cdot\Phi\right)-\Delta I(t)\cdot\Phi=\\
+&amp;\sim-\frac{\hbar\omega_{01}}{2}\sigma_z-\Delta I(t)\cdot\Phi
+\end{align}\]</div>
+<p>con <span class="arithmatex">\(\mathcal{H}_{\text{int}}(t)=-\Delta I(t)\cdot\Phi=-\Delta I(t)\cdot\dfrac{\Phi_0}{2\pi}\cdot\delta\)</span> 
+Tale termine di interazione non risulta diagonale e per poterlo trattare in maniera più semplice si sfrutta la <strong>Rotating Wave Approximation (RWA)</strong> ottenendo così:</p>
+<div class="arithmatex">\[\begin{align}
+\mathcal{H}_{\text{RWA}}\approx -\dfrac{\hbar}{2}\left(\omega_{01}-\omega_d\right)\cdot\hat{\sigma}_z -\sqrt{\dfrac{\hbar}{2\omega_0C}}\cdot\left\{\frac{I_{RFC}}{2}\hat{\sigma}_x+\frac{I_{RFS}}{2}\hat{\sigma}_y\right\}+ \frac{I_{LF}(t)}{2} \frac{\partial E_{10}}{\partial I_{B_0}}\cdot\hat{\sigma}_z\end{align}\]</div>
+<p>con <span class="arithmatex">\(\Delta I(t)\)</span> riscritta come combinazione lineare dei contributi a bassa e ad alta frequenza per rappresentare i diversi effetti che un segnale esterno può avere sul qubit (con frequenza alta corrispondente alla frequenza di drive):</p>
+<div class="arithmatex">\[
+\begin{align}
+\Delta I(t) &amp;= I_{LF}(t) + I_{RF}(t)\cos(\omega_dt+\phi)=\\\\ 
+&amp;= I_{LF}(t)+I_{RFC}(t,\phi)\cos(\omega_d t) + I_{RFS}(t,\phi)\sin(\omega_d t)
+\end{align}
+\]</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+        <script src="https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+      
+        <script src="https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+      
+    
+  </body>
+</html>

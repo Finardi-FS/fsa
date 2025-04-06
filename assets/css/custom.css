@@ -1,0 +1,7 @@
+/* Abilita la sillabazione automatica */
+.md-content p {
+    text-align: justify;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
