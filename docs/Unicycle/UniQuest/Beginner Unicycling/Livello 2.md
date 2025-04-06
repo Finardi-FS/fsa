@@ -1,3 +1,13 @@
+---
+Topic: UniQuest
+tags:
+  - uniquest
+  - unicycle
+  - levels
+  - sport
+  - skills
+Language: IT
+---
 # **Livello 2**
 
 - **[[Livello 2#**2.1 Pedalata senza assistenza (4 o piu pedalate)**|Pedalata senza assistenza (4 o più pedalate)]]** - ([video: minuto 0:28](https://www.youtube.com/watch?v=ss8iPrDfTs0&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=2&t=28s))

@@ -1,3 +1,13 @@
+---
+Topic: UniQuest
+tags:
+  - uniquest
+  - unicycle
+  - sport
+  - levels
+  - skills
+Language: IT
+---
 # **Livello 1**
 
 - **[[Livello 1#**1.1 Salita assistita**|Salita assistita]]** - ([video: minuto 1:55](https://www.youtube.com/watch?v=rWUoIv1ftXc&list=PL-cykddDwi53A0l5YuAIzl0sLa4y5eED_&index=1&t=115s)) 
