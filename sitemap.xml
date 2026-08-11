@@ -2,42 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Photography/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/photography/</loc>
+         <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Photography/Temi%20del%20Mese/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/photography/temi-del-mese/</loc>
+         <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Physics/Tecnologie%20Quantistiche%20Applicate/SQUIDS/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/physics/</loc>
+         <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/physics/quantum-technologies/</loc>
+         <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/Livelli%20IUF/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/physics/quantum-technologies/phase-qubit/</loc>
+         <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/UniQuest/Principiante/Livello%201/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/physics/quantum-technologies/squids/</loc>
+         <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/UniQuest/Principiante/Livello%202/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/</loc>
+         <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/UniQuest/Principiante/Livello%203/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/iuf/iuf-official-levels/</loc>
+         <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/Unicycle/UniQuest/Principiante/Livello%204/</loc>
-         <lastmod>2025-03-14</lastmod>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/iuf/iuf-proposed-levels/</loc>
+         <lastmod>2026-08-11</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/iuf/iuf-proposed-levels/base-levels/</loc>
+         <lastmod>2026-08-11</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/iuf/iuf-proposed-levels/extreme-levels/</loc>
+         <lastmod>2026-08-11</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/iuf/iuf-proposed-levels/freestyle-levels/</loc>
+         <lastmod>2026-08-11</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/iuf/iuf-proposed-levels/structure/</loc>
+         <lastmod>2026-08-11</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/uniquest/</loc>
+         <lastmod>2026-08-11</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/uniquest/beginner/Livello%201/</loc>
+         <lastmod>2026-08-11</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/uniquest/beginner/Livello%202/</loc>
+         <lastmod>2026-08-11</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/uniquest/beginner/Livello%203/</loc>
+         <lastmod>2026-08-11</lastmod>
+    </url>
+    <url>
+         <loc>https://finardi-fs.github.io/obsidian-publish-mkdocs/unicycle/uniquest/beginner/Livello%204/</loc>
+         <lastmod>2026-08-11</lastmod>
     </url>
 </urlset>

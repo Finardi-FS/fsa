@@ -1,0 +1,8 @@
+/* Nascondere la parte del footer che contiene il testo "Made with Material for MkDocs" */
+.md-footer {
+    display: none !important;
+}
+/* Aumenta il tempo di animazione del menu a tendina */
+.md-nav .md-nav__item--has-submenu:hover > .md-nav__submenu {
+    transition: all 0.3s ease;
+}
